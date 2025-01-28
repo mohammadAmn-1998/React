@@ -1,15 +1,20 @@
+import React from 'react';
+import './style.css'
+
+import Timer from './Timer.js'
+import Title from "./Title.js"
 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-    
-  
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+      return(
+          <div className='main'> 
+         <Title/>
+          <Timer/>
+              </div>
+        
+      )
+  }
 }
 
 export default App;
