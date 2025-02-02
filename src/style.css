@@ -23,3 +23,45 @@ body{
     justify-content: center;
     display: flex;
 }
+
+.button-start {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-start:hover {
+    background-color: darkgreen;
+    box-shadow: 0 0 15px rgba(0, 128, 0, 0.7);
+}
+
+.button-start:active {
+    transform: scale(0.95);
+}
+
+.button-stop {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-stop:hover {
+    background-color: darkred;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+.button-stop:active {
+    transform: scale(0.95);
+}
